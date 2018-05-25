@@ -1,0 +1,1 @@
+﻿Get-ADUser -Server "cgpwbchdc01" -filter * -SearchBase "ou=Users,dc=chubuet,dc=com" | Select sAMAccountName
